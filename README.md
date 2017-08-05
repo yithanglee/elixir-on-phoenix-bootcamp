@@ -15,6 +15,14 @@ $ sudo apt-get install esl-erlang
 
 $ mix archive.install https://github.com/phoenixframework/archives/raw/master/phx_new.ez
 
+## Create new Phoenix app
+
+$ mix phoenix.new library_system
+
+$ mix ecto.create
+
+### Cheatsheets references
+
 http://ricostacruz.com/cheatsheets/phoenix-conn.html
 
 http://ricostacruz.com/cheatsheets/phoenix-migrations.html
